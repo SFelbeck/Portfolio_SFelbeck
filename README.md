@@ -5,5 +5,8 @@ The process of creating this site was largely smooth with not many persistant is
 I plan to either upgrade this site or reuse some of the code in the future as my professional portfolio.
 
 Here are some pictures of the finished site!
-![top](C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\Screenshot (4).png)
-![bottom](C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\Screenshot (5).png)
+
+<div>
+    <img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\top_screenshot.jpg" alt="top">
+    <img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\bottom_screenshot.jpg" alt="bottom">
+</div>
