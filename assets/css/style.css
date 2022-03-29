@@ -1,3 +1,9 @@
+/* resets existing margins */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --foreground: purple;
     --background: rgb(216, 222, 231);
@@ -6,6 +12,7 @@
     --font: sans-serif;
 }
 
+/* universal styling */
 body {
     background-color: var(--background);
     font-family: var(--font);
@@ -20,10 +27,6 @@ h1 {
     padding: 10px;
 }
 
-h2 {
-    color: var(--light);
-}
-
 .header {
     background-color: var(--foreground);
     color: var(--light);
@@ -36,11 +39,13 @@ h2 {
     margin-top: 0;
 }
 
-nav a {
+ nav a {
     color: var(--light);
     padding: 10px;
+    text-decoration: none;
 }
 
+/* adds color change fade effect on hover to page navigation  */
 nav a:hover {
     transition: 2s ease;
     color: var(--dark);
@@ -53,13 +58,17 @@ nav a:hover {
 
 .about-me {
     margin: 30px;
-    padding: 20px;
 }
 
+/* creates an underline defined to my specifications */
 .about-me h1 {
     border-bottom: 5px solid var(--dark);
-    height: 100%;
-    padding: 5px;
+    width: 100%;
+}
+
+/* fits texts neatly under underline */
+.about-me p{
+    padding: 20px;
 }
 
 .work {
@@ -68,12 +77,14 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+/* creates an underline defined to my specifications */
 .work h1{
     border-bottom: 5px solid var(--dark);
     width: 100%;
 }
 
-.main {
+/* sets this individual card to be 95% of parent and maintains its position on different screen sizes */
+#main {
     color: var(--light);
     width: 95%;
 }
@@ -87,6 +98,7 @@ nav a:hover {
     border-radius: 10px;
 }
 
+/* sets card headers inside the space of the image and gives it a background */
 .work-card h3 {
     position: absolute;
     bottom: 10px;
@@ -95,10 +107,13 @@ nav a:hover {
     padding: 5px;
     border-radius: 10px;
 }
-.work img{
+
+/* there was a space under the pictures before the border...emphasis on "was" */
+.work img {
     vertical-align: bottom;
 }
 
+/* decreases card image opacity and adds shadow effect on hover */
 .work-card img:hover {
     transition: 2s ease;
     opacity: 0.5;
