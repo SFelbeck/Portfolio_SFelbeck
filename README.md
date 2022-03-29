@@ -6,7 +6,9 @@ I plan to either upgrade this site or reuse some of the code in the future as my
 
 Here are some pictures of the finished site!
 
-<div>
-    <img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\top_screenshot.jpg" alt="top">
-    <img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\bottom_screenshot.jpg" alt="bottom">
-</div>
+<img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\top_screenshot.jpg" alt="top"/>
+<img src="C:\Users\Stefan\code\Homework\Portfolio_SFelbeck\Portfolio_SFelbeck\assets\assets\bottom_screenshot.jpg" alt="bottom"/>
+
+You can find the site her!
+
+<a href="https://sfelbeck.github.io/Portfolio_SFelbeck/"></a>
