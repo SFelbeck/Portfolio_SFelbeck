@@ -6,7 +6,7 @@ I plan to either upgrade this site or reuse some of the code in the future as my
 
 Here are some pictures of the finished site!
 
-![screenshot](./assets/assets/top_screenshot.jpg)
-![screenshot](./assets/assets/bottom_screenshot.jpg)
+![screenshot](./assets/assets/top_screenshot.png)
+![screenshot](./assets/assets/bottom_screenshot.png)
 
 <a href="https://sfelbeck.github.io/Portfolio_SFelbeck/">You can find the site here</a>
